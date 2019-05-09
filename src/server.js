@@ -41,4 +41,4 @@ app.use(require('./routes'));
 // SEM O PONTO O EXPRESS iRá procurar na pasta NODE-MODULES
 
 // PORTA NA QUAL O SERVIDOR NODE ESTÁ RODANDO.
-server.listen(4444);
+server.listen(process.env.PORT || 4444);
